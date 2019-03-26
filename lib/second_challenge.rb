@@ -9,4 +9,4 @@
   groceries.values.flatten
   end
 
-  flatten(groceries)
+  second_challenge(groceries)
