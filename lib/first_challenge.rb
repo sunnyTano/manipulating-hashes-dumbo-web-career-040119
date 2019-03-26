@@ -12,7 +12,7 @@
 #   }
 # }
 
-def remove(contacts)
+def first_challenge(contacts)
 contacts.each do |person, data|
   data.each do |attribute, value|
     if attribute == :favorite_icecream_flavors
@@ -24,5 +24,5 @@ end
 contacts["Freddy Mercury"][:favorite_icecream_flavors]
 end
 
-remove(contacts)
+first_challenge(contacts)
 
