@@ -24,5 +24,5 @@ end
 contacts["Freddy Mercury"][:favorite_icecream_flavors]
 end
 
-remove(contacts)
+first_challenge(contacts)
 
